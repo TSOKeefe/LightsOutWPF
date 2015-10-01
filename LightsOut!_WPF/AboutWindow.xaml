@@ -1,0 +1,10 @@
+﻿<Window x:Class="LightsOut__WPF.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AboutWindow" Height="200" Width="436" WindowStartupLocation="CenterScreen" Icon="Properties/Bulb.ico">
+    <Grid>
+        <Label Content="Lights Out! By Shane O'Keefe" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Bottom"/>
+        <Label Content="Turn all the lights out (black) to win!" HorizontalAlignment="Right" Margin="10,13,10,10" VerticalAlignment ="Center"/>
+        <Image HorizontalAlignment="Left" Height="105" Margin="39,23,0,0" VerticalAlignment="Top" Width="151" Source="..\LightsOut!_WPF\Untitled.png" Stretch="UniformToFill" StretchDirection="DownOnly" OpacityMask="Black" />
+    </Grid>
+</Window>
